@@ -1,0 +1,108 @@
+.container {
+  padding: 0 2rem;
+}
+
+.main {
+  min-height: 100vh;
+  padding: 4rem 0 1rem 0;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav {
+  margin: 1.5rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.navItem {
+  display: flex;
+  justify-content: space-between;
+  width: 130px;
+  align-items: center;
+}
+
+.navItem p {
+  color: #2c3e50;
+  font-weight: 500;
+  margin: 0.5rem;
+}
+
+.footer {
+  color: #3a5169;
+  text-align: center;
+  border-top: 1px solid #e1e1e1;
+  padding: 1rem 0;
+  font-size: 1.1rem;
+}
+
+.description a, .footer a, .link a, .navItem a {
+  color: #368df1;
+  text-decoration: none;
+}
+
+.description a:hover, .footer a:hover, .link a:hover, .navItem a:hover
+.description a:focus, .footer a:focus, .link a:focus, .navItem a:focus
+.description a:active, .footer a:active, .link a:active, .navItem a:active {
+  text-decoration: underline;
+}
+
+.title {
+  color: #2c3e50;
+  margin: 0;
+  line-height: 1.15;
+  font-size: 3.5rem;
+}
+
+.title,
+.description {
+  text-align: center;
+}
+
+.description {
+  color: #6a8bad;
+  margin: 1rem 0;
+  line-height: 1.5;
+  font-size: 1.5rem;
+}
+
+.grid {
+  border-top: 1px solid #e1e1e1;
+  border-top-width: 80%;
+  display: flex;
+  align-items: top;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 2rem 0;
+}
+
+.card {
+  padding: 1.5rem;
+  text-align: left;
+  color: inherit;
+  text-decoration: none;
+  max-width: 300px;
+}
+
+.card h2 {
+  color: #3a5169;
+  margin: 0 0 1rem 0;
+  font-size: 1.5rem;
+}
+
+.card p {
+  color: #4e6e8e;
+  margin: 0;
+  font-size: 1.25rem;
+  line-height: 1.5;
+}
+
+@media (max-width: 600px) {
+  .grid {
+    width: 100%;
+    flex-direction: column;
+  }
+}
