@@ -1,5 +1,5 @@
+/* eslint-disable @next/next/no-img-element */
 import Head from 'next/head'
-import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 
 export default function Home() {
@@ -13,7 +13,7 @@ export default function Home() {
 
       <nav className={styles.nav}>
         <div className={styles.navItem}>
-          <Image src="/palavreco.png" width="40" height="40" className="d-inline-block align-top" alt="Palavreco" />
+          <img src="/palavreco.png" width="40" height="40" className="d-inline-block align-top" alt="Palavreco" />
           <p>Palavreco</p>
         </div>
         <div className={styles.navItem}>
@@ -22,7 +22,7 @@ export default function Home() {
       </nav>
 
       <main className={styles.main}>
-        <Image src="/palavreco.png" alt="Palavreco" width="175" height="175" />
+        <img src="/palavreco.png" alt="Palavreco" width="175" height="175" />
         <br /><br />
 
         <h1 className={styles.title}>Palavreco</h1>
