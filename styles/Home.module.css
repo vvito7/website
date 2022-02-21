@@ -69,6 +69,12 @@
   font-size: 1.5rem;
 }
 
+.buttons {
+  display: flex;
+  justify-content: space-between;
+  width: 300px;
+}
+
 .grid {
   border-top: 1px solid #e1e1e1;
   border-top-width: 80%;
@@ -104,5 +110,14 @@
   .grid {
     width: 100%;
     flex-direction: column;
+  }
+  .navItem{
+    width: auto;
+  }
+  .title{
+    font-size: 2.5rem;
+  }
+  .description{
+    font-size: 1.4rem;
   }
 }

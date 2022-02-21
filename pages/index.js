@@ -29,9 +29,15 @@ export default function Home() {
         <p className={styles.description}>
           O bot de Discord que simula o jogo <a href='https://www.nytimes.com/games/wordle/index.html'>Wordle</a>
         </p>
-        <a href='https://discord.com/api/oauth2/authorize?client_id=935291567038672906&permissions=273408&scope=bot%20applications.commands'>
-          <button type="button" className="btn btn-success">Adicione o Palavreco &rarr;</button>
-        </a>
+
+        <div className={styles.buttons}>
+          <a href='https://discord.com/api/oauth2/authorize?client_id=935291567038672906&permissions=273408&scope=bot%20applications.commands'>
+            <button type="button" className="btn btn-success">Adicione o Palavreco &rarr;</button>
+          </a>
+          <a href='https://discord.gg/KEdytHNbK2'>
+            <button type="button" className="btn btn-primary">Suporte &rarr;</button>
+          </a>
+        </div>
 
         <div className={styles.grid}>
           <div className={styles.card}>
