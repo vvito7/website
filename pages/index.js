@@ -9,6 +9,11 @@ export default function Home() {
         <title>Palavreco</title>
         <link rel="icon" href="/palavreco.png" />
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" />
+        <meta name='theme-color' content='#78b15a' />
+        <meta property='og:url' content='https://palavreco.com' />
+        <meta property='og:title' content='Palavreco' />
+        <meta property='og:description' content='Um bot de Discord que simula o Wordle (conhecido como Termo ou Letreco)' />
+        <meta property="og:image" content="https://cdn.discordapp.com/attachments/935802603957272576/942907203722039296/de21f9b77cdbf3e1.png" />
       </Head>
 
       <nav className={styles.nav}>
@@ -27,7 +32,10 @@ export default function Home() {
 
         <h1 className={styles.title}>Palavreco</h1>
         <p className={styles.description}>
-          O bot de Discord que simula o jogo <a href='https://www.nytimes.com/games/wordle/index.html'>Wordle</a>
+          O bot de Discord que simula o jogo <a href='https://www.nytimes.com/games/wordle/index.html'>Wordle</a>*
+        </p>
+        <p className={styles.minor_description}>
+          *Conhecido no Brasil como <a href="https://term.ooo">Termo</a> ou <a href="https://www.gabtoschi.com/letreco/">Letreco</a>
         </p>
 
         <div className={styles.buttons}>

@@ -39,14 +39,14 @@
   font-size: 1.1rem;
 }
 
-.description a, .footer a, .link a, .navItem a {
+.description a, .footer a, .link a, .navItem a, .minor_description a {
   color: #368df1;
   text-decoration: none;
 }
 
-.description a:hover, .footer a:hover, .link a:hover, .navItem a:hover
-.description a:focus, .footer a:focus, .link a:focus, .navItem a:focus
-.description a:active, .footer a:active, .link a:active, .navItem a:active {
+.description a:hover, .footer a:hover, .link a:hover, .navItem a:hover, .minor_description a:hover
+.description a:focus, .footer a:focus, .link a:focus, .navItem a:focus, .minor_description a:focus
+.description a:active, .footer a:active, .link a:active, .navItem a:active, .minor_description a:active {
   text-decoration: underline;
 }
 
@@ -64,9 +64,15 @@
 
 .description {
   color: #6a8bad;
-  margin: 1rem 0;
+  margin: 1rem 0 0 0;
   line-height: 1.5;
   font-size: 1.5rem;
+}
+
+.minor_description {
+  color: #6a8bad;
+  margin: 0 0 1.5rem 0;
+  font-size: 1rem;
 }
 
 .buttons {
