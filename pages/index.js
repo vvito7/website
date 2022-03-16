@@ -12,7 +12,7 @@ export default function Home() {
         <meta name='theme-color' content='#78b15a' />
         <meta property='og:url' content='https://palavreco.com' />
         <meta property='og:title' content='Palavreco' />
-        <meta property='og:description' content='Um bot de Discord que simula o Wordle (conhecido como Termo ou Letreco)' />
+        <meta property='og:description' content='Um bot de Discord que simula o Wordle (Conhecido no Brasil como Termo ou Letreco)' />
         <meta property="og:image" content="https://cdn.discordapp.com/attachments/935802603957272576/942907203722039296/de21f9b77cdbf3e1.png" />
       </Head>
 
