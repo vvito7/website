@@ -65,7 +65,7 @@ export default function Home() {
         </div>
 
         <footer className={styles.footer}>
-          Feito por <a href='https://github.com/ADMVicli'>ADMVicli</a> e <a href='https://github.com/vitorlops'>vitorlops</a> com ❤️<br />Agradecimentos especiais ao <a href='https://github.com/eduraio'>Edu ϟ</a> ⭐
+          Feito por <a href='https://github.com/ADMVicli'>ADMVicli</a> e <a href='https://github.com/vvito7'>vvito7</a> com ❤️<br />Agradecimentos especiais ao <a href='https://github.com/eduraio'>Edu ϟ</a> ⭐
         </footer>
       </main>
     </div>
